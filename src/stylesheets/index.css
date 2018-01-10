@@ -1,14 +1,73 @@
+h1.thin, h2.thin, h3.thin, h4.thin, h5.thin, h6.thin {
+font-weight: 300
+}
+
+h1.caps, h2.caps, h3.caps, h4.caps, h5.caps, h6.caps {
+text-transform: uppercase
+}
+
 body {
-  font-family: 'Raleway', sans-serif;
+  background-color: black;
+  color: #00ff00;
+
+  font-family: monospace;
+  font-size: 1.5em;
 }
 
-img {
-  height: 20rem;
-  width: 70%;
-  margin-top: 2rem;
+ul {
+  width: 80%;
+  max-width: 500px;
+  border: 1px solid #00ff00;
 }
 
-.box-div {
-  border: 1px solid black;
-  margin-top: 2rem;
+li {
+  padding: 5px;
+}
+
+li>ul {
+  max-width: 90%;
+  border: 1px solid #00ff00;
+  box-sizing: border-box;
+}
+
+a {
+    color: #00ff00;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+    color: black;
+    background-color: #00ff00;
+}
+
+input {
+  background-color: black;
+  border-color: black;
+  color: #00ff00;
+  font-family: monospace;
+  outline: none;
+}
+
+table {
+  border: 1px solid #00ff00;
+  box-sizing: border-box;
+}
+
+th {
+  border: 1px solid #00ff00;
+  box-sizing: border-box;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid #00ff00;
+  box-sizing: border-box;
+  border-collapse: collapse;
+}
+
+.visited {
+  text-decoration: line-through;
 }
